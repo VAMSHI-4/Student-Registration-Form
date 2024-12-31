@@ -1,0 +1,40 @@
+/* responsive.css */
+@media (max-width: 768px) {
+    .App {
+      padding: 15px;
+      margin: 0 10px;
+    }
+  
+    input[type="text"], select, button {
+      width: 100%;
+    }
+  
+    ul li {
+      font-size: 14px;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  }
+  
+  /* Further adjustments for small screens */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  
+    button {
+      padding: 12px;
+    }
+  
+    ul li {
+      font-size: 12px;
+      padding: 8px;
+    }
+  }
+  
